@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +27,8 @@
 
       <!-- Logo -->
       <div class="text-center">
-        <img class="mx-auto h-48 w-48 object-contain" src="http://localhost/Uchhero/Project/pics/Uchhero.png" alt="Uchhero Logo">
+        <img class="mx-auto h-48 w-48 object-contain" src="http://localhost/Uchhero/Project/pics/Uchhero.png"
+          alt="Uchhero Logo">
         <h2 class="mt-4 text-2xl font-bold text-gray-900">Login to your account</h2>
       </div>
 
@@ -52,12 +56,12 @@
         <div class="flex space-x-4 items-center">
           <label class="block text-sm font-medium text-gray-900">Login as:</label>
           <div class="flex items-center">
-            <input id="user" name="role" type="radio" value="user" checked
+            <input id="user" name="role" type="radio" value="u" checked
               class="h-4 w-4 text-indigo-600 border-gray-300 focus:ring-indigo-500">
             <label for="user" class="ml-2 block text-sm font-medium text-gray-900">User</label>
           </div>
           <div class="flex items-center">
-            <input id="admin" name="role" type="radio" value="admin"
+            <input id="admin" name="role" type="radio" value="a"
               class="h-4 w-4 text-indigo-600 border-gray-300 focus:ring-indigo-500">
             <label for="admin" class="ml-2 block text-sm font-medium text-gray-900">Admin</label>
           </div>
@@ -87,10 +91,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
